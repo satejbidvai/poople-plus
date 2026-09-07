@@ -8,6 +8,12 @@ It adds:
 - Protection from invalid Enter presses
 - Undo for accepted words
 
+
+
+https://github.com/user-attachments/assets/63d57bfa-5890-48bc-84de-8ef331a7c816
+
+
+
 ## Develop
 
 ```sh
