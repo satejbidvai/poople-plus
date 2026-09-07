@@ -1,0 +1,10 @@
+node_modules/
+dist/
+dist-prod/
+.vite/
+.pnpm-store/
+
+.DS_Store
+*.log
+.idea/
+.vscode/

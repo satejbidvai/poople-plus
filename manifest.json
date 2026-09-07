@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Poople Plus",
+  "version": "0.1.0",
+  "description": "Adds live word validation and undo to Poople.",
+  "icons": {
+    "16": "icons/poop-16.png",
+    "32": "icons/poop-32.png",
+    "48": "icons/poop-48.png",
+    "128": "icons/poop-128.png"
+  },
+  "host_permissions": ["https://poople.io/*"],
+  "content_scripts": [
+    {
+      "matches": ["https://poople.io/*"],
+      "js": ["src/content.ts"],
+      "run_at": "document_idle"
+    }
+  ]
+}
